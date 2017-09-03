@@ -12,11 +12,15 @@ public class AdapterPatternDemo {
 		mMusicPlayer.play("Monster", "mp4");
 		
 		// MusicPlayer only supports MP3 file format.
-		// How can we make it support other file formats such as MP4? 
+		// How can we make it support other file formats such as MP4 and MP5?
+		
 		// Solution one: let MusicPlayer implement AdvancedMediaPlayer interface,
-		// so our MusicPlayer will have playMP4 method.
+		// so our MusicPlayer will have playMP4 and playMP5 method.
+		
 		// Solution two: create an adapter, so we can keep play method,
-		// and still can play file with MP4 format.
+		// and still MP4 and MP5 format.
 		mMusicPlayer.play("New Divide", "mp4");
+		mMusicPlayer.play("Hello", "mp5");
+		mMusicPlayer.play("If You", "avi");
 	}
 }
