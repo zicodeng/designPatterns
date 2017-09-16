@@ -1,4 +1,4 @@
-package example.designPatterns.decoratorPattern;
+package designPatterns.decoratorPattern;
 
 // This class adds a blue texture to a any shape.
 public class BlueTextureShapeDecorator extends ShapeDecorator {

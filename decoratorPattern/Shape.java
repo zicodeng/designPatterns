@@ -1,4 +1,4 @@
-package example.designPatterns.decoratorPattern;
+package designPatterns.decoratorPattern;
 
 public interface Shape {
 	void draw();

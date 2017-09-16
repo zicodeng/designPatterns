@@ -1,4 +1,4 @@
-package example.designPatterns.adapterPattern;
+package designPatterns.adapterPattern;
 
 public class MusicPlayer implements MediaPlayer {
 	// m means this is a member instance of MediaAdapter class.

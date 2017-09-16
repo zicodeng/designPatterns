@@ -1,4 +1,4 @@
-package example.designPatterns.adapterPattern;
+package designPatterns.adapterPattern;
 
 public class AdvancedMusicPlayer implements AdvancedMediaPlayer {
 	

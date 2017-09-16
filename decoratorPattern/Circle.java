@@ -1,4 +1,4 @@
-package example.designPatterns.decoratorPattern;
+package designPatterns.decoratorPattern;
 
 public class Circle implements Shape {
 	// Empty constructor.

@@ -1,4 +1,4 @@
-package example.designPatterns.decoratorPattern;
+package designPatterns.decoratorPattern;
 
 // RedBorderShapeDecorator is a concrete class that extends
 // abstract class ShapeDecorator.

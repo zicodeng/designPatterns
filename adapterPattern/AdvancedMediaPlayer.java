@@ -1,4 +1,4 @@
-package example.designPatterns.adapterPattern;
+package designPatterns.adapterPattern;
 
 public interface AdvancedMediaPlayer {
 	public void playMP4(String fileName);

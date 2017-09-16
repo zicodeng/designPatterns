@@ -1,4 +1,4 @@
-package example.designPatterns.adapterPattern;
+package designPatterns.adapterPattern;
 
 // MediaAdapter class is for creating a media adapter that
 // can be used by regular music player to support more advanced file formats.

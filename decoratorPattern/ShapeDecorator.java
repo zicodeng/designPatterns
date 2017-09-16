@@ -1,4 +1,4 @@
-package example.designPatterns.decoratorPattern;
+package designPatterns.decoratorPattern;
 
 // ShapeDecorator is an abstract class, meaning it should never
 // be instantiated, and expect a subclass to override it. 
