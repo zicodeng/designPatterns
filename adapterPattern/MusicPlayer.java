@@ -17,7 +17,7 @@ public class MusicPlayer implements MediaPlayer {
 			
 		} else {
 			// If the file format is not MP3,
-			// we will need MediaAdapter to provide support for other file formats.
+			// we will need a media adapter to provide support for other file formats.
 			mMediaAdapter = new MediaAdapter(fileFormat);
 			mMediaAdapter.play(fileName, fileFormat);
 		}
